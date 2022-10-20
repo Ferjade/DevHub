@@ -1,4 +1,4 @@
-import pic from "../DevHub.png";
+import pic from "../assets/DevHub.png";
 function Image(){
  return <img src={pic} />
 }
