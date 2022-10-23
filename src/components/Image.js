@@ -1,4 +1,4 @@
-import pic from "../assets/DevHub.png";
+import pic from "../assets/DevHub-removebg.png";
 function Image(){
  return <img src={pic} />
 }
