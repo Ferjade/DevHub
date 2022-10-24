@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes,Route } from 'react-router-dom'
-import Home from './home'
+import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Discover from './Discover'
@@ -11,9 +11,6 @@ const Index = () => {
     return (
     <>
         <Navbar/>
-        <main class='App-header'>
-            <p>Sample</p>
-        </main>
         <div className="container">
             <Routes>
                 <Route path="/" element={<Home/>} />
