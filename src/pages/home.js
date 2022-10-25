@@ -12,8 +12,8 @@ const Home = () => {
         <Carousel>
       <Carousel.Item>
         <img
-          className="w-100"
-          style={{height: 500, border: "2px solid"}}
+          className="d-block w-100"
+          style={{height: 500}}
           src="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="First slide"
         />
