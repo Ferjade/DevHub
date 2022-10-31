@@ -4,25 +4,26 @@ import Image from '../assets/DevHub-removebg.png'
 import WorkspaceIcon from '@mui/icons-material/WorkspacePremiumOutlined';
 import DesignIcon from '@mui/icons-material/DesignServices';
 import TimelapseIcon from '@mui/icons-material/Timelapse';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-      <div class="footerContainer">
-        <div class="logoContainer">
-          <div class='logo'><img src={Image} alt='DevHub logo'/></div>
-          <div class='tags'>
-              <div class='Icon'><WorkspaceIcon sx={{fontSize: 'inherit'}}/></div>
-              <div class='footTag'>Lorem, ipsum dolor</div>
-              <div class='Icon'><DesignIcon sx={{fontSize: 'inherit'}}/></div>
-              <div class='footTag'>Lorem, ipsum dol</div>
-              <div class='Icon'><TimelapseIcon sx={{fontSize: 'inherit'}}/></div>
-              <div class='footTag'>Lorem, ipsum</div>
+      <div className="footerContainer">
+        <div className="logoContainer">
+          <div className='logo'><Link to="/"><img src={Image} alt='DevHub logo'/></Link></div>
+          <div className='tags'>
+              <div className='Icon'><WorkspaceIcon sx={{fontSize: 'inherit'}}/></div>
+              <div className='footTag'>Lorem, ipsum dolor</div>
+              <div className='Icon'><DesignIcon sx={{fontSize: 'inherit'}}/></div>
+              <div className='footTag'>Lorem, ipsum dol</div>
+              <div className='Icon'><TimelapseIcon sx={{fontSize: 'inherit'}}/></div>
+              <div className='footTag'>Lorem, ipsum</div>
           </div>
-          <div class='copyrightContainer'>
+          <div className='copyrightContainer'>
             <p>© 2022 DevHub - All Rights Reserved</p>
           </div>
         </div>
-        <div class="linksContainer">
+        <div className="linksContainer">
             <table>
                 <tr>
                   <th>Help</th>
@@ -31,22 +32,22 @@ const Footer = () => {
                 </tr>
               <tbody>
               <tr>
-                  <td>FAQ</td>
-                  <td>Privacy Policy</td>
-                  <td>Instagram</td>
+                  <td><a href="" className='test'>FAQ</a></td>
+                  <td><a href="" className='test'>Privacy Policy</a></td>
+                  <td><a href="" className='test'>Instagram</a></td>
                 </tr>
                 <tr>
-                  <td>About Us</td>
-                  <td>Terms & Conditions</td>
-                  <td>Facebook</td>
+                  <td><a href="" className='test'>About Us</a></td>
+                  <td><a href="" className='test'>Terms & Conditions</a></td>
+                  <td><a href="" className='test'>Facebook</a></td>
                 </tr>
                 <tr>
-                  <td>Contact Us</td>
-                  <td>Cookie Policy</td>
+                  <td><a href="" className='test'>Contact Us</a></td>
+                  <td><a href="" className='test'>Cookie Policy</a></td>
                   <td></td>
                 </tr>
                 <tr>
-                  <td>Meet the Team</td>
+                  <td><a href="" className='test'>Meet the Team</a></td>
                   <td></td>
                   <td></td>
                 </tr>

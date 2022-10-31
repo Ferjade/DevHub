@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content {
+    height: 100vh;
+    border-radius: 15px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.title1, .title2{
+    width: 50%;
+}
+.title1 {
+    background-color: #3C403D;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+.title2 {
+    background-color: #DADED4;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.imgContainer1, .imgContainer2{
+    width: 50%;
+    height: 100vh;
+}
+.imgContainer1{
+    background-image: url("../assets/card2.jpg");
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.imgContainer2{
+    background-image: url("../assets/card1.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.card1, .card2{
+    border-radius: 50px;
+}
+.card2{
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+.header1{
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 2em;
+    padding-left: 1em;
+    font-size: 4em;
+}
+.header2{
+    color: #3C403D;
+    text-align: left;
+    padding-top: 3em;
+    padding-left: 1em;
+    font-size: 4em;
+}
+.subText1{
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 3em;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.subText2{
+    color: #3C403D;
+    text-align: left;
+    margin-left: 3em;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.botContent{
+    color: #FFFFFF;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 9em;
+}
+.botContent2{
+    color: #3C403D;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 10em;
+}
+.botContent hr{
+    height: 2px;
+    background-color: #FFFFFF;
+    opacity: 100;
+}
+.tags{
+    margin-bottom: 1em;
+}
+.icon{
+    margin-left: -1em;
+}
+.iconText{
+    margin-left: 1em;
+}
+.botContent2 hr{
+    height: 2px;
+    background-color: #3C403D;
+    opacity: 100;
+}
+.buttonContainer{
+    text-align: left;
+    margin-top: 8.5em;
+    margin-left: 3.5em;
+}
+.buttonContainer button{
+    padding: 7px 14px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.buttonContainer button:hover{
+    padding: 7px 14px;
+    border-radius: 20px;
+    background-color: #DADED4;
+    color: black;
+}
+.innerBotContent{
+    display: flex;
+    flex-direction: row;
+}
