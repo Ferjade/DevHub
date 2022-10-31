@@ -13,10 +13,10 @@ const Index = () => {
         <Navbar/>
         <div className="container">
             <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/about" element={<About/>} />
-                <Route path="/contact" element={<Contact/>} />
-                <Route path="/discover" element={<Discover/>} />
+                <Route exact path="/" element={<Home/>} />
+                <Route path="/About" element={<About/>} />
+                <Route path="/Contact" element={<Contact/>} />
+                <Route path="/Discover" element={<Discover/>} />
             </Routes>
         </div>
         <Footer/>
