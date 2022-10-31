@@ -1,19 +1,13 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 
 const Home = () => {
   return (
-    <Container fluid>
-      <Row>
-        <Col>
-        <Carousel>
+    <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: 500}}
+          style={{ height: '500px' }}
           src="https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="First slide"
         />
@@ -25,7 +19,7 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: 500}}
+          style={{ height: '500px' }}
           src="https://images.pexels.com/photos/2265488/pexels-photo-2265488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Second slide"
         />
@@ -38,7 +32,7 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          style={{height: 500}}
+          style={{ height: '500px' }}
           src="https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Third slide"
         />
@@ -51,9 +45,6 @@ const Home = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-        </Col>
-      </Row>
-    </Container>
   );
 }
 
