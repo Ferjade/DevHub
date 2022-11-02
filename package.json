@@ -1,7 +1,6 @@
 {
   "name": "devhub",
   "version": "0.1.0",
-  "homepage": "https://Ferjade.github.io/DevHub",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",

@@ -4,7 +4,7 @@ import '../assets/homeContent1.css';
 const HomeContent1 = () => {
   return (
     <div className='botContainer'>
-      <div className='botHeader'>Explore the marketplace</div>
+      <div className='botHeader'>Check our Devs</div>
       <div className='botCategories'>
         <div className='botCategory1'>
             <span className='categoryText1'>Frontend Web Developer</span>

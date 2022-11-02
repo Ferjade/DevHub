@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     height: 95vh;
-    width: 83vw;
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2em;
@@ -19,14 +19,14 @@
     font-size: 35px;
     margin-left: 0.5em;
     font-weight: 500;
-    margin-top: .5em;
+    margin-top: 1em;
 }
 .botCategories{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
@@ -38,6 +38,8 @@
     margin: 5px;
     height: 10em;
     margin-top: 1em;
+    transition: transform .2s;
+    border-radius: 15px;
 }
 .botCategory1{
     display: flex;
@@ -244,4 +246,11 @@
     background-color: #3C403D;
     color: #FFFFFF;
     padding: 0.1em;
+}
+.botCategory1:hover, .botCategory2:hover, .botCategory3:hover,
+.botCategory4:hover, .botCategory5:hover, .botCategory6:hover,
+.botCategory7:hover, .botCategory8:hover, .botCategory9:hover,
+.botCategory10:hover, .botCategory11:hover, .botCategory12:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
