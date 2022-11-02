@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DevHub/static/css/main.2466447e.css",
+    "main.js": "/DevHub/static/js/main.0b168cb7.js",
+    "static/media/category2.jpg": "/DevHub/static/media/category2.b801a3701eb1dff3991c.jpg",
+    "static/media/category9.jpg": "/DevHub/static/media/category9.b801a3701eb1dff3991c.jpg",
+    "static/media/category4.jpg": "/DevHub/static/media/category4.04e7fc158cc36cc5807d.jpg",
+    "static/media/category8.jpg": "/DevHub/static/media/category8.cbde3fb1e79db95c49a5.jpg",
+    "static/media/category7.jpg": "/DevHub/static/media/category7.324369b99edf22dbca84.jpg",
+    "static/media/category6.jpg": "/DevHub/static/media/category6.804f5db57c9153740e25.jpg",
+    "static/media/category11.jpg": "/DevHub/static/media/category11.38039b20ec5afeb4d5b0.jpg",
+    "static/media/category10.jpg": "/DevHub/static/media/category10.3092b59ebd4b8b8820c4.jpg",
+    "static/media/category3.jpg": "/DevHub/static/media/category3.723135b2afd9f0609c9e.jpg",
+    "static/media/category1.jpg": "/DevHub/static/media/category1.56333215b195f3d3094e.jpg",
+    "static/media/card2.jpg": "/DevHub/static/media/card2.713fca05e564b1a84c82.jpg",
+    "static/media/category5.jpg": "/DevHub/static/media/category5.740c6ff65c2e5850795b.jpg",
+    "static/media/card1.jpg": "/DevHub/static/media/card1.e1a6b9ad410e3809d7eb.jpg",
+    "static/media/marketplace1.jpg": "/DevHub/static/media/marketplace1.14ef36d1d9fa7af4ed0c.jpg",
+    "static/media/DevHub-removebg.png": "/DevHub/static/media/DevHub-removebg.814c0514283ae66a31bb.png",
+    "index.html": "/DevHub/index.html",
+    "main.2466447e.css.map": "/DevHub/static/css/main.2466447e.css.map",
+    "main.0b168cb7.js.map": "/DevHub/static/js/main.0b168cb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2466447e.css",
+    "static/js/main.0b168cb7.js"
+  ]
+}
