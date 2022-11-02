@@ -10,7 +10,7 @@ const Footer = () => {
   return (
       <div className="footerContainer">
         <div className="logoContainer">
-          <div className='logo'><Link to="/"><img src={Image} alt='DevHub logo'/></Link></div>
+          <div className='logo'><Link to="/DevHub"><img src={Image} alt='DevHub logo'/></Link></div>
           <div className='tags'>
               <div className='Icon'><WorkspaceIcon sx={{fontSize: 'inherit'}}/></div>
               <div className='footTag'>Lorem, ipsum dolor</div>
