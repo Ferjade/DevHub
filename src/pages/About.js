@@ -6,44 +6,55 @@ export default function About() {
     return (
         <Container className='discContainer'>
         <CardGroup>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+        <Card style={{width: '18rem'}}>
+            <Card.Img variant="top"
+            src="https://leojomar01.github.io/MiniProject-2/static/media/m.fd93dc294ed349c282b6.png" />
             <Card.Body>
               <Card.Title>Ferjade Fortuito</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in
-                to additional content. This content is a little bit longer.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, 
+              delectus! Fuga veritatis fugiat laborum quam possimus ullam vero 
+              quia unde repellat iste earum, molestiae quos accusamus ea delectus cumque incidunt.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+            <Card.Link style={{textDecoration:"none"}} href="#">
+              <small className="text-muted">E-Portfolio</small>
+            </Card.Link>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card style={{width: '18rem'}}>
+            <Card.Img variant="top"
+            src="https://leojomar01.github.io/MiniProject-2/static/media/f.d9661feb653daf3e0c6d.jpg" />
             <Card.Body>
               <Card.Title>Elaine Miculob</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{' '}
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, 
+              delectus! Fuga veritatis fugiat laborum quam possimus ullam vero 
+              quia unde repellat iste earum, molestiae quos accusamus ea delectus cumque incidunt.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+            <Card.Link style={{textDecoration:"none"}} href="#">
+              <small className="text-muted">E-Portfolio</small>
+            </Card.Link>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+          <Card style={{width: '18rem'}}>
+            <Card.Img variant="top"
+            src="https://leojomar01.github.io/MiniProject-2/static/media/m.fd93dc294ed349c282b6.png" />
             <Card.Body>
               <Card.Title>Dave Pua</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural lead-in
-                to additional content. This card has even longer content than the
-                first to show that equal height action.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, 
+              delectus! Fuga veritatis fugiat laborum quam possimus ullam vero 
+              quia unde repellat iste earum, molestiae quos accusamus ea delectus cumque incidunt.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+            <Card.Link style={{textDecoration:"none"}} href="https://evade-22.github.io/portfolio-dave-pua/">
+              <small className="text-muted">E-Portfolio</small>
+            </Card.Link>
             </Card.Footer>
           </Card>
         </CardGroup>
