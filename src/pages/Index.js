@@ -13,7 +13,7 @@ const Index = () => {
         <Navbar/>
         <div className="container">
             <Routes>
-                <Route exact path="/" element={<Home/>} />
+                <Route exact path="/DevHub" element={<Home/>} />
                 <Route path="/About" element={<About/>} />
                 <Route path="/Contact" element={<Contact/>} />
                 <Route path="/Discover" element={<Discover/>} />
