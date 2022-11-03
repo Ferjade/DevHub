@@ -1,22 +1,21 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
 }
-.container{
+.container {
     text-align: center;
 }
 .nav{
     background-color: #39603D;
-    color: #FFF;
+    color: azure;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
 }
-
 .nav ul{
     padding: 0;
     margin: 0;
@@ -25,29 +24,24 @@ body{
     gap: 1rem;
 }
 .nav a{
-    color: inherit;
     text-decoration: none;
-    color: azure;
+    color: inherit;
     height: 100%;
     display: flex;
     align-items: center;
     padding: .25rem;
     font-size: 1.5rem;
 }
-.nav a.link{
-    color: azure;
+.nav li.active {
+    background-color: lightgreen;
 }
-
-.nav li:active{
+.nav li:hover {
     background-color: #A3BCB6;
-    color: azure;
 }
-.nav li:hover{
-    background-color: #A3BCB6;
-    color: azure;
+.nav a:hover {
+    color: white;
 }
 img{
     padding: 5px;
     width: 50%;
 }
-

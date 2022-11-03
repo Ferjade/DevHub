@@ -83,7 +83,7 @@ export default function Contact(){
 
             <Form.Group className="mb-3" controlId="formGridAddress2">
               <Form.Label>Message Inquiry:</Form.Label>
-              <Form.Control tabIndex={4} id="message" type="text" name="message" 
+              <Form.Control tabIndex={4} id="message" as="textarea" rows={5} name="message" 
               ref={messageRef} placeholder="Enter message inquiry" required/>
             </Form.Group>
 

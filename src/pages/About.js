@@ -18,7 +18,7 @@ export default function About() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-            <Card.Link style={{textDecoration:"none"}} href="#">
+            <Card.Link style={{textDecoration:"none"}} href="https://ferjade.github.io/DevHub">
               <small className="text-muted">E-Portfolio</small>
             </Card.Link>
             </Card.Footer>

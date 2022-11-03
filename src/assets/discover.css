@@ -4,3 +4,7 @@
 .Item{
     text-align: center;
 }
+.cardDesign{
+    width: 100%;
+    min-height: 100%;
+}

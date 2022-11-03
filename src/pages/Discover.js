@@ -3,6 +3,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import CardGroup from 'react-bootstrap/CardGroup';
 import '../assets/discover.css'
 
 export default function Discover(){
@@ -15,8 +16,8 @@ export default function Discover(){
         </Row>
         {/* First Row Talent */}
         <Row>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            <CardGroup>
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Hitesh Choudhary</Card.Title>
@@ -34,9 +35,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/1181341/pexels-photo-1181341.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Kelly Morillo</Card.Title>
@@ -54,9 +54,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/1181267/pexels-photo-1181267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
                     <Card.Body>
                         <Card.Title>Kara Jensen</Card.Title>
@@ -74,9 +73,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/6803522/pexels-photo-6803522.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Pavel Danilyuk</Card.Title>
@@ -94,7 +92,7 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
+            </CardGroup>
         </Row>
         {/* First Row Talent END */}
 
@@ -102,8 +100,8 @@ export default function Discover(){
 
         {/* Second Row Talent */}
         <Row>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            <CardGroup>
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Kristie Christensen</Card.Title>
@@ -121,9 +119,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+    
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/1181259/pexels-photo-1181259.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Helene Coleman</Card.Title>
@@ -141,9 +138,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/5702315/pexels-photo-5702315.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Mitchell Hahn</Card.Title>
@@ -161,9 +157,8 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
-            <Col xs={3}>
-                <Card style={{ width: '18rem' }}>
+            
+                <Card className='cardDesign'>
                     <Card.Img variant="top" src="https://images.pexels.com/photos/10223587/pexels-photo-10223587.jpeg?auto=compress&cs=tinysrgb&w=600" />
                     <Card.Body>
                         <Card.Title>Eddie Rivera</Card.Title>
@@ -181,7 +176,7 @@ export default function Discover(){
                         <Card.Link href="#">LinkedIn</Card.Link>
                     </Card.Body>
                 </Card>
-            </Col>
+            </CardGroup>
         </Row>
         {/* Second Row Talent END */}
         </Container>
