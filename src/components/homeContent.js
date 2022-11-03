@@ -12,7 +12,6 @@ const HomeContent = () => {
                 <div className='title1'>
                   <h2 className='header1'>Find the Best Developers</h2>
                   <div className='subText1'>Meet developers you’re excited to work with
-                    <br/>
                     <span>and take your business to new heights.</span>
                   </div>
                   <div className='botContent'>

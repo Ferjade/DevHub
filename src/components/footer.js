@@ -25,11 +25,13 @@ const Footer = () => {
         </div>
         <div className="linksContainer">
             <table>
+              <thead>
                 <tr>
                   <th>Help</th>
                   <th>Legal Info</th>
                   <th>Follow us</th>
                 </tr>
+                </thead>
               <tbody>
               <tr>
                   <td><a href="" className='test'>FAQ</a></td>
@@ -38,17 +40,17 @@ const Footer = () => {
                 </tr>
                 <tr>
                   <td><a href="" className='test'>About Us</a></td>
-                  <td><a href="" className='test'>Terms & Conditions</a></td>
+                  <td>Terms &</td>
                   <td><a href="" className='test'>Facebook</a></td>
                 </tr>
                 <tr>
                   <td><a href="" className='test'>Contact Us</a></td>
-                  <td><a href="" className='test'>Cookie Policy</a></td>
+                  <td><a href="" className='test'>Conditions</a></td>
                   <td></td>
                 </tr>
                 <tr>
                   <td><a href="" className='test'>Meet the Team</a></td>
-                  <td></td>
+                  <td>Cookie Policy</td>
                   <td></td>
                 </tr>
               </tbody>
