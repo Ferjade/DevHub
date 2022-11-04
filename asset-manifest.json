@@ -1,12 +1,7 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/DevHub/static/css/main.3b599ef5.css",
-    "main.js": "/DevHub/static/js/main.87b38244.js",
-=======
     "main.css": "/DevHub/static/css/main.c09aceda.css",
-    "main.js": "/DevHub/static/js/main.158d6770.js",
->>>>>>> 17e43d8a23ae901516f25347bf17714d002976ee
+    "main.js": "/DevHub/static/js/main.39b863d8.js",
     "static/media/category2.jpg": "/DevHub/static/media/category2.b801a3701eb1dff3991c.jpg",
     "static/media/category9.jpg": "/DevHub/static/media/category9.b801a3701eb1dff3991c.jpg",
     "static/media/category4.jpg": "/DevHub/static/media/category4.04e7fc158cc36cc5807d.jpg",
@@ -24,20 +19,11 @@
     "static/media/marketplace1.jpg": "/DevHub/static/media/marketplace1.14ef36d1d9fa7af4ed0c.jpg",
     "static/media/DevHub-removebg.png": "/DevHub/static/media/DevHub-removebg.814c0514283ae66a31bb.png",
     "index.html": "/DevHub/index.html",
-<<<<<<< HEAD
-    "main.3b599ef5.css.map": "/DevHub/static/css/main.3b599ef5.css.map",
-    "main.87b38244.js.map": "/DevHub/static/js/main.87b38244.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.3b599ef5.css",
-    "static/js/main.87b38244.js"
-=======
     "main.c09aceda.css.map": "/DevHub/static/css/main.c09aceda.css.map",
-    "main.158d6770.js.map": "/DevHub/static/js/main.158d6770.js.map"
+    "main.39b863d8.js.map": "/DevHub/static/js/main.39b863d8.js.map"
   },
   "entrypoints": [
     "static/css/main.c09aceda.css",
-    "static/js/main.158d6770.js"
->>>>>>> 17e43d8a23ae901516f25347bf17714d002976ee
+    "static/js/main.39b863d8.js"
   ]
 }
