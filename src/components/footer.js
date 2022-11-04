@@ -50,7 +50,7 @@ const Footer = () => {
                 </tr>
                 <tr>
                   <td><a href="" className='test'>Meet the Team</a></td>
-                  <td>Cookie Policy</td>
+                  <td><a href="" className='test'>Cookie Policy</a></td>
                   <td></td>
                 </tr>
               </tbody>

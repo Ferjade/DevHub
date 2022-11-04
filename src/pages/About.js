@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 export default function About() {
     return (
         <Container className='discContainer'>
+        <h1>Meet the Team</h1>
         <CardGroup>
         <Card style={{width: '18rem'}}>
             <Card.Img variant="top"

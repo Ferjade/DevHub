@@ -1,4 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .formLayout{
     padding: 30px;
     text-align: left;
+}
+.container{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.content {
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    width: 40%;
+    background-color: #3C403D;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.formContainer{
+    background-image: url(./formBg.jpg);
+    background-size: cover;
+    margin-top: 3em;
+    width: 60%;
+    height: 100vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* .card{
+    border-radius: 50px;
+} */
+.header{
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 1.5em;
+    padding-left: .5em;
+    font-size: 4em;
+}
+.subText{
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.botContent{
+    color: #FFFFFF;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 15em;
+}
+.botContent hr{
+    height: 2px;
+    background-color: #FFFFFF;
+    opacity: 100;
+}
+.tags{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.icon{
+    margin-left: -1em;
+}
+.iconText{
+    margin-left: 1em;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .header{
+        font-size: 2em;
+    }
+    .subText{
+        font-size: 1em;
+        margin-left: 2em;
+        margin-right: 1em;
+    }
+    .iconText{
+        font-size: .8em;
+    }
+    .botContent{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
 }

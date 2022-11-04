@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.content {
+.content1 {
     height: 100vh;
     border-radius: 15px;
     margin-top: 1em;
@@ -75,7 +75,7 @@
     font-size: 1.5em;
     margin-top: 1em;
 }
-.botContent{
+.botContent1{
     color: #FFFFFF;
     margin-left: 4em;
     margin-right: 4em;
@@ -87,18 +87,19 @@
     margin-right: 4em;
     margin-top: 10em;
 }
-.botContent hr{
+.botContent1 hr{
     height: 2px;
     background-color: #FFFFFF;
     opacity: 100;
 }
-.tags{
-    margin-bottom: 1em;
+.tags1{
+    text-align: left;
+    margin-left: 1em;
 }
 .icon{
     margin-left: -1em;
 }
-.iconText{
+.iconText1{
     margin-left: 1em;
 }
 .botContent2 hr{
@@ -106,18 +107,18 @@
     background-color: #3C403D;
     opacity: 100;
 }
-.buttonContainer{
+.buttonContainer1{
     text-align: left;
-    margin-top: 8.5em;
+    margin-top: 1em;
     margin-left: 3.5em;
 }
-.buttonContainer button{
+.buttonContainer1 button{
     padding: 7px 14px;
     border-radius: 20px;
     background-color: #FFFFFF;
     border: none;
 }
-.buttonContainer button:hover{
+.buttonContainer1 button:hover{
     padding: 7px 14px;
     border-radius: 20px;
     background-color: #DADED4;
@@ -137,10 +138,10 @@
         margin-left: 2em;
         margin-right: 1em;
     }
-    .iconText{
+    .iconText1{
         font-size: .8em;
     }
-    .botContent{
+    .botContent1{
         margin-left: 1.5em;
         margin-right: 1.5em;
     }

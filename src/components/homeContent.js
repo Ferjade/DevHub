@@ -8,25 +8,25 @@ const HomeContent = () => {
   return (
     <div className="container">
         <div className='card1'>
-            <div className='content'>
+            <div className='content1'>
                 <div className='title1'>
                   <h2 className='header1'>Find the Best Developers</h2>
                   <div className='subText1'>Meet developers you’re excited to work with
-                    <span>and take your business to new heights.</span>
+                    <span> and take your business to new heights.</span>
                   </div>
-                  <div className='botContent'>
+                  <div className='botContent1'>
                     <hr/>
-                    <div className='tags'>
-                      <span className='icon'><BrushIcon/></span> <span className='iconText'>Access expert talent to fill your skill gaps</span>  
+                    <div className='tags1'>
+                      <span className='icon'><BrushIcon/></span> <span className='iconText1'>Access expert talent to fill your skill gaps</span>  
                     </div>
-                    <div className='tags'>
-                      <span className='icon'><BusinessIcon/></span> <span className='iconText'>Control your workflow: hire, classify and pay your talent</span> 
+                    <div className='tags1'>
+                      <span className='icon'><BusinessIcon/></span> <span className='iconText1'>Control your workflow: hire, classify and pay your talent</span> 
                     </div>
-                    <div className='tags'>
-                      <span className='icon'><SupportIcon/></span> <span className='iconText'>Talk with us for end-to-end support</span> 
+                    <div className='tags1'>
+                      <span className='icon'><SupportIcon/></span> <span className='iconText1'>Talk with us for end-to-end support</span> 
                     </div>
                   </div>
-                  <div className='buttonContainer'>
+                  <div className='buttonContainer1'>
                     <button type="button">Learn More</button>
                   </div>
                 </div>
